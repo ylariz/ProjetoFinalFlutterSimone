@@ -1,5 +1,5 @@
 name: projeto_final_simone
-description: "A new Flutter project."
+description: "App de horários dos monitores do DCOMP."
 publish_to: 'none'
 version: 0.1.0
 
@@ -10,6 +10,8 @@ dependencies:
   flutter:
     sdk: flutter
   http: ^1.6.0
+  provider: ^6.1.5+1
+  go_router: ^18.1.0
 
 dev_dependencies:
   flutter_test:
@@ -18,3 +20,5 @@ dev_dependencies:
 
 flutter:
   uses-material-design: true
+  assets:
+    - assets/logo.png
